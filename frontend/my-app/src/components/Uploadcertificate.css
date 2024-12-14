@@ -1,0 +1,9 @@
+.body{
+    position: relative;
+    top: 0%;
+    background-color: #f1f4f7;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
