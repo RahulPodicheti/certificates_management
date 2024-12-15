@@ -38,6 +38,7 @@ function Registercertificate() {
           <input
             type="text"
             name="rollno"
+            placeholder="Enter your rollno"
             onChange={onChange}
             value={credentials.rollno}
             className="form-control"
@@ -51,6 +52,7 @@ function Registercertificate() {
           <input
             type="name"
             name="name"
+            placeholder="Enter your name"
             onChange={onChange}
             value={credentials.name}
             className="form-control"
@@ -63,6 +65,7 @@ function Registercertificate() {
           </label>
           <input
             type="email"
+            placeholder="Enter your email"
             name="email"
             onChange={onChange}
             value={credentials.email}
@@ -77,6 +80,7 @@ function Registercertificate() {
           </label>
           <input
             type="password"
+            placeholder="Enter your password"
             name="password"
             onChange={onChange}
             value={credentials.password}

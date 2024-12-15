@@ -7,3 +7,22 @@
     align-items: center;
     justify-content: center;
 }
+.upload{
+    height: 275px;
+    width: 700px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(147, 143, 147);
+}
+h5{
+    color: brown;
+    margin-bottom: 23px;
+}
+input{
+    max-width: 800px;
+    box-shadow: 1px 1px 1px 1px rgb(143, 143, 143);
+    margin: 1px;
+}
+#exampleInputCert{
+    padding: 0.5px; 
+}

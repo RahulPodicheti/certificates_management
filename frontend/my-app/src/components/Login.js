@@ -39,6 +39,7 @@ function Login() {
           <input
             type="email"     
             name="email"
+            placeholder="Enter your email"
             onChange={onChange}
             value={credentials.email}
             className="form-control"
@@ -52,6 +53,7 @@ function Login() {
           </label>
           <input
             type="password"
+            placeholder="Enter your password"
             name="password"
             onChange={onChange}
             value={credentials.password}
